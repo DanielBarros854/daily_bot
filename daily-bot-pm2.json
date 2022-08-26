@@ -2,7 +2,7 @@
   "name": "daily-bot",
   "script": "dist/index.js",
   "watch": false,
-  "cron": "0 14 * * *",
+  "cron": "0 14 * * 1-5",
   "autorestart": false,
   "ignore_watch": ["node_modules"]
 }
